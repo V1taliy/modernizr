@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!--<script src="modernizr-custom.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</head>
+<body>
+    <h1>SVG Fallback with Modernizr (JS version)</h1>
+<div>
+  <img src="svg-pic.svg" data-png="no-svg-pic.jpg"/>
+ </div>
+<h2>SVG Fallback with Modernizr (CSS version)</h2>
+      <div class="svg-css"></div>
+
+      <h3>Simple SVG animation</h3>
+      <div class="svg-wrapper">
+          <svg height="60" width="320" xmlns="http://www.w3.org/2000/svg">
+            <rect class="shape" height="60" width="320" />
+          </svg>
+           <div class="text">HOVER ME =)</div>
+        </div>
+
+</body>
+</html>
