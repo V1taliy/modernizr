@@ -1,2 +1,2 @@
 # modernizr
-[Click to watch simple example](https://v1taliy.github.io/modernizr/)
+[Click to watch simple example modernizr work and simple SVG animation](https://v1taliy.github.io/modernizr/)
